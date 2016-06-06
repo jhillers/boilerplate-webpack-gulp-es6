@@ -1,0 +1,9 @@
+body {
+    font-size: 21px;
+}
+
+.checkBox {
+    background: url("../img/icon-checkbox-square.png");
+    width:32px;
+    height:32px;
+}
