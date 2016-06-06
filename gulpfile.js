@@ -22,6 +22,6 @@ gulp.task('html', function () {
 });
 
 gulp.task('img', function () {
-    return gulp.src('img/*')
-        .pipe(gulp.dest('out/img/'));
+    return gulp.src('./img/**/*.*',{ base: './' })
+        .pipe(gulp.dest('out/'));
 });
