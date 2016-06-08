@@ -1,10 +1,10 @@
 /**
  * Created by jose.hillers on 06/06/2016.
  */
-module.exports = {
-    init: function () {
+
+  export function init () {
         var header = document.createElement("H1");
-        var text = document.createTextNode("Webpack & gulp Boilerplate.");
+        var text = document.createTextNode("Webpack, gulp & es6 Boilerplate.");
         header.appendChild(text);
 
         var checkBox = document.createElement("DIV");
@@ -13,4 +13,3 @@ module.exports = {
         document.body.appendChild(header);
         document.body.appendChild(checkBox);
     }
-};
